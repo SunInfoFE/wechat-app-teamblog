@@ -1,0 +1,18 @@
+<import src="../../wxParse/wxParse.wxml" />
+<template name="header">
+	<view class="header">
+		<view class="header-title">IMP前端分享</view>
+	</view>
+</template>
+
+<view class="detail">
+	<template is="header" data="{{item: item}}" />
+	<view class="content">
+		<view class="title">
+			{{item.title}}
+		</view>
+		<view class="content">
+			<template is="wxParse" data="{{wxParseData}}" />
+		</view>
+	</view>
+</view>

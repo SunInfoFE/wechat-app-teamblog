@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f2f2f2",
+    "navigationBarTitleText": "IMP前端团队博客",
+    "navigationBarTextStyle":"black"
+  },
+  "config": {
+  	"server": "https://api.github.com",
+  	"github": {
+  		"user": "lfc625",
+  		"repo": "blog"
+  	}
+  }
+}

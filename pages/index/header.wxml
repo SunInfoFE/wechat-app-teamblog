@@ -1,0 +1,11 @@
+<!-- header -->
+<template name="header">
+	<view class="header">
+		<view class="text">
+			<view class="title">{{site.title}}</view>
+		</view>
+		<view class="logo">
+			<image src="/images/sunflower_logo.svg" />
+		</view>
+	</view>
+</template>
