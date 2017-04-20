@@ -1,7 +1,11 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/detail/index"
+    "pages/detail/index",
+    "pages/article/index",
+    "pages/team/index",
+    "pages/join/index",
+    "pages/source/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

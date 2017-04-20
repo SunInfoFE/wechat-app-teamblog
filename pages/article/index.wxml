@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<import src="list.wxml" />
+
+<view class="header">
+	<view class="header-title">技术积累与分享</view>
+</view>
+<view class="content">
+    <template is="list" data="{{list: list}}" />
+</view>

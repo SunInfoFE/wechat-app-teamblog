@@ -1,0 +1,7 @@
+<import src="list.wxml" />
+<view class="header">
+	<view class="header-title">最新动态</view>
+</view>
+<view class="content">
+    <template is="list" data="{{list: list}}" />
+</view>

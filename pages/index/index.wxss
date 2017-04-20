@@ -1,34 +1,69 @@
 /**index.wxss**/
+page{
+  height: 100%;
+  overflow: hidden;
+}
+.container{
+  background: -webkit-linear-gradient(top,#6fa5ff, #548bf0);
+  z-index: -1;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .header{
-  background: #66CCCC;
   background-repeat: no-repeat;
   background-position: center 0;
   background-size: cover;
   padding: 200rpx 0 0;
-  text-align: center;
   min-height: 500rpx;
   position: relative;
   box-sizing: border-box;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #fff;
   font-size: 2rem;
 }
-.logo{
+.logo,.word{
 	position: absolute;
-  left: 1%;
-  right: 1%;
-  bottom: -28px;
+  z-index: 10;
+}
+.logo{
+  top:30%;
+  left: 5%; 
+}
+.word{
+  top: 50%;
+  font-size: 1.1rem;
+  left:7.6%;
 }
 .logo image{
-	width: 50px;
-	height: 45px;
+	width: 540rpx;
+	height: 147rpx;
+}
+.left,.right{
+  position: absolute;
+  z-index: 1
+}
+.left{
+  top:-78rpx;
+  left: 0;
+}
+.right{
+  top: 68rpx;
+  right: 0;
+}
+.left image{
+  width: 140rpx;
+  height: 450rpx;
+}
+.right image{
+  width: 366rpx;
+  height: 748rpx;
 }
 .list{
+  position: relative;
+  z-index: 8;
 	padding: 20rpx;
 }
 .item{
@@ -38,9 +73,7 @@
   padding:20rpx;
   color: #666;
   font-size: 30rpx;
-  border-left: 12rpx solid #0099CC;
 }
-
 .item .thumb{
 	height: 0;
   padding-bottom: 70%;
@@ -62,17 +95,37 @@
 	line-height: 3rem;
   font-size: 1.2rem;
 }
-.item-desc{
-  text-align: left;
-  white-space: pre-line;
+.nav-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 100%;
+   min-height: 500rpx;
+}
+.item-nav{
+  width: 42%;
+  height:200rpx;
+  background: rgba(255,255,255,.8);
+  padding:20rpx;
+  z-index: 8;
+  border-radius:10rpx;
+  font-size: 0.8rem;
+}
+.item-nav navigator{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.item-nav image{
+  width: 170rpx;
+  height: 170rpx;
 }
 .footer{
-  background: #66CCCC;
-  min-height: 120rpx;
-  font-size: 0.5rem;
+  color:#fff;
+  min-height: 124rpx;
+  font-size: 0.6rem;
   text-align: center;
 }
 .footer .team{
-  margin-top: 30rpx;
   padding-top: 30rpx;
 }

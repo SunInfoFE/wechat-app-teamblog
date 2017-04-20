@@ -1,8 +1,11 @@
 <template name="item">
-	<view class="item" bindtap="gotoDetail" data-itemid="{{item.number}}">
+	<view class="item" data-itemid="{{item.number}}">
 		<view class="item-info">
 			<view class="item-title">
-				{{item.title}}
+                项目动态：{{item.payload.commits[0].message}}
+			</view>
+			<view class="item-desc">
+			    开发者：{{item.actor.login}}
 			</view>
 		</view>
 	</view>

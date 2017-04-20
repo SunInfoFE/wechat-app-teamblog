@@ -2,7 +2,7 @@
 <template name="footer">
 	<view class="footer">
         <view class="team">
-            <text>来自imp前端的内部分享平台，满满的干货!\n不做商业用途。如有侵权，请联系我们。</text>
+            <text>不用于商业用途，如有文章侵权，请联系我们!\n上讯信息技术股份有限公司</text>
         </view>
 	</view>
 </template>

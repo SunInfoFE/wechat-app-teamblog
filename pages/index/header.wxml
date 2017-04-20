@@ -1,11 +1,17 @@
 <!-- header -->
 <template name="header">
 	<view class="header">
-		<view class="text">
-			<view class="title">{{site.title}}</view>
-		</view>
 		<view class="logo">
-			<image src="/images/sunflower_logo.svg" />
+			<image src="/images/logo.png" />
+		</view>
+		<view class="word">
+			<text>来自imp前端的内部分享平台\n满满的干货!</text>
+		</view>
+		<view class="left">
+			<image src="/images/left-flower.png" />
+		</view>
+		<view class="right">
+			<image src="/images/right-flower.png" />
 		</view>
 	</view>
 </template>
