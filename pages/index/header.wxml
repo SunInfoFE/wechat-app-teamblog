@@ -5,7 +5,7 @@
 			<image src="/images/logo.png" />
 		</view>
 		<view class="word">
-			<text>来自imp前端的内部分享平台\n满满的干货!</text>
+			<text>上讯西研前端团队的分享平台\n满满的干货!</text>
 		</view>
 		<view class="left">
 			<image src="/images/left-flower.png" />
