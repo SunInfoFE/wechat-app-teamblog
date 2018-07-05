@@ -1,4 +1,7 @@
-
-<view class="">
-        <text>我们是..........</text>
+<import src="list.wxml" />
+<view class="header">
+	<view class="header-title">开源项目</view>
+</view>
+<view class="content">
+    <template is="list" data="{{list: list}}" />
 </view>

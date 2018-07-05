@@ -1,0 +1,16 @@
+<template name="item">
+	<view class="item" data-itemid="{{item.number}}">
+		<view class="item-info">
+			<view class="item-title">
+          项目名称：{{item.name}}
+			</view>
+		</view>
+	</view>
+</template>
+
+<template name="list">
+	<view class="list" wx:if="{{list.length > 0}}">
+		<template wx:for="{{list}}" wx:key="number" is="item" data="{{item: item}}" />
+	</view>
+	<loading wx:else>加载中...</loading>
+</template>

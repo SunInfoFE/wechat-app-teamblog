@@ -16,7 +16,8 @@ App({
       apiUrl: config.server + '/repos/' + config.github.user + '/' + config.github.repo,
       repoUrl: 'https://github.com/' + config.github.user + '/' + config.github.repo,
       recentUrl: config.server+'/users/' + config.github.user + '/received_events',
-      github: config.github
+      github: config.github,
+      repo: 'https://api.github.com/orgs/SunInfoFE/repos'
     },
     site: {
       title: 'SunFlower'

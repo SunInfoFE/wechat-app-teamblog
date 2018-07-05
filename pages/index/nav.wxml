@@ -10,19 +10,19 @@
         <view class="item-nav open-source">
             <navigator url="/pages/source/index">
                 <image src="/images/icon_source.png" />
-                <text>开源项目</text>
+                <text>项目动态</text>
             </navigator>
         </view>
         <view class="item-nav team">
             <navigator url="/pages/team/index">
                 <image src="/images/icon_team.png" />
-                <text>团队介绍</text>
+                <text>开源项目</text>
             </navigator>
         </view>
         <view class="item-nav join">
             <navigator url="/pages/join/index">
                 <image src="/images/icon_join.png" />
-                <text>加入我们</text>
+                <text>我们在哪</text>
             </navigator>
         </view>
 	</view>
